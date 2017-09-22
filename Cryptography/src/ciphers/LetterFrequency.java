@@ -10,6 +10,7 @@ import tools.CharConverter;
 
 public class LetterFrequency {
 
+	//main used only for 1a, public methods used in Vignere for 5
 	public static void main(String[] args) throws FileNotFoundException
 	{
 		String inputFile = args[0];
@@ -35,7 +36,6 @@ public class LetterFrequency {
 	}
 	
 	/**
-	 * 
 	 * @param cipherArray char array representing the text to be analyzed
 	 * @return an array of frequencies. 
 	 * [0] corresponds to 'a', [25] corresponds to 'z'
